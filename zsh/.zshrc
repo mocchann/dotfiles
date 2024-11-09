@@ -28,6 +28,7 @@ alias gswc='git switch -c'
 alias gh-watch='gh run list | grep $(git brach --show-current) | cut -f 7 | head -n 1 | xargs gh run watch'
 alias gh-view='gh run list | grep $(git branch --show-current) | cut -f 7 | head -n 1 | xargs gh run view'
 alias gh-log='gh run list | grep $(git branch --show-current) | cut -f 7 | head -n 1 | xargs gh run view --log'
+alias ls='ls -F'
 alias ll='ls -la'
 
 function code {
