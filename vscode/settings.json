@@ -1,0 +1,63 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderWhitespace": "boundary",
+  "emmet.triggerExpansionOnTab": true,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    { "before": ["j", "j"], "after":["<Esc>"] }
+  ],
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "files.autoSave": "afterDelay",
+  "vim.hlsearch": false,
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "sdfghjkl",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["leader", "leader", "s"]
+    }
+  ],
+  "workbench.editorAssociations": {
+    "*.pdf": "default",
+    "*.db": "default"
+  },
+  "git.confirmSync": false,
+  "window.zoomLevel": 1,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "none",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
