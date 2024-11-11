@@ -1,7 +1,8 @@
 /*
 /.**
 
-!/.config/
+!/.config/wezterm/
+!/.config/starship.toml
 !/vscode/
 !/zsh/
 
