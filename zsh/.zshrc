@@ -13,6 +13,7 @@ alias gl='git log --graph --decorate --oneline --color --all --pretty="format:%C
 alias glo='git log --oneline'
 alias glg='git log --graph'
 alias dc='docker compose'
+alias dcps='docker compose ps'
 alias dcu='docker compose up'
 alias dcud='docker compose up -d'
 alias dce='docker compose exec'
