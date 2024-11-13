@@ -2,7 +2,6 @@ eval "$(rbenv init -)"
 
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias g='git'
-alias gi='init'
 alias ga='git add'
 alias gcm='git commit -m'
 alias gpo='git push origin'
