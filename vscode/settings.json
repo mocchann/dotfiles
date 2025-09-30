@@ -4,54 +4,76 @@
   "emmet.triggerExpansionOnTab": true,
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
-    { "before": ["j", "j"], "after":["<Esc>"] }
+      {
+          "before": [
+              "j",
+              "j"
+          ],
+          "after": [
+              "<Esc>"
+          ]
+      }
   ],
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "files.autoSave": "afterDelay",
   "vim.hlsearch": false,
   "vim.easymotion": true,
   "vim.easymotionKeys": "sdfghjkl",
   "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["f"],
-      "after": ["leader", "leader", "s"]
-    }
+      {
+          "before": [
+              "f"
+          ],
+          "after": [
+              "leader",
+              "leader",
+              "s"
+          ]
+      }
   ],
   "workbench.editorAssociations": {
-    "*.pdf": "default",
-    "*.db": "default"
+      "*.pdf": "default",
+      "*.db": "default"
   },
   "git.confirmSync": false,
   "window.zoomLevel": 1,
   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "[json]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[php]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+      "editor.tabSize": 4,
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "[css]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[ruby]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "rubocop.vscode-rubocop"
+  },
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.format": "rubocop",
   "editor.formatOnSave": true,
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
@@ -59,5 +81,23 @@
   "workbench.startupEditor": "none",
   "github.copilot.editor.enableAutoCompletions": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "pasteImage.basePath": "${projectRoot}",
+  "pasteImage.insertPattern": "${imageSyntaxPrefix}/${imageFilePath}${imageSyntaxSuffix}",
+  "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
+  "editor.accessibilitySupport": "off",
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "playwright.showTrace": false,
+  "playwright.reuseBrowser": false,
+  "files.insertFinalNewline": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }

@@ -1,5 +1,7 @@
 eval "$(rbenv init -)"
 
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias ga='git add'
 alias gcm='git commit -m'
@@ -11,6 +13,7 @@ alias gl='git log --graph --decorate --oneline --color --all --pretty="format:%C
 alias glo='git log --oneline'
 alias glg='git log --graph'
 alias dc='docker compose'
+alias dcb='docker compose build'
 alias dcps='docker compose ps'
 alias dcu='docker compose up'
 alias dcud='docker compose up -d'
@@ -38,6 +41,17 @@ function code {
         local argPath="$1"
         [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
         open -a "Visual Studio Code" "$argPath"
+    fi
+}
+
+function cursor {
+    if [[ $# = 0 ]]
+    then
+        open -a "Cursor"
+    else
+        local argPath="$1"
+        [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
+        open -a "Cursor" "$argPath"
     fi
 }
 
