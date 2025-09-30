@@ -1,0 +1,48 @@
+- Homebrew
+- xcode
+- Git
+- Sequel Ace
+- DockerDesctop
+- zoom
+- wezterm
+- starship
+- Raycast
+  - List Repos
+  - ghq
+- cursor/vscode
+  - vim
+  - Japanese Language Pack for Visual Studio Code
+  - indent-rainbow
+  - Git Len
+  - HashiCorp Terraform
+  - GitHub Actions
+  - Code Spell Checker
+  - Biome
+  - Auto Rename Tag
+  - GraphQL: Language Feature Support
+  - JavaScript and TypeScript Nightly
+  - Material Icon Theme
+  - Prettier - Code formatter
+  - Prettier ESLint
+  - Rubocop
+  - Ruby
+  - Slim
+  - Tailwind CSS IntelliSense
+  - Thunder Client
+  - YAML
+- chrome
+  - DeepL
+  - Vimium
+  - JSON Formatter
+  - Wappalyzer
+- slack
+  - 「障害」をメンションワードに設定
+- Google翻訳
+- GraphiQL
+- asdf/mise
+- jq
+- ruby/rbenv
+- nodejs
+- npm
+- tree
+- gh cli
